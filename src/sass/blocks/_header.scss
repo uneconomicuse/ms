@@ -1,0 +1,28 @@
+.header {
+    padding: 20px 0;
+    &__logo {
+        img {
+            width: 200px;
+        }
+    }
+    &__nav {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 0px;
+        &_item {
+            font-family: 'Rubik Regular';
+            padding-right: 50px;
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+    }
+    .button {
+        display: inline-block;
+        width: 150px;
+        height: 30px;
+        background-color: blue;
+    }
+}
