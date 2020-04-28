@@ -1,0 +1,29 @@
+.promo {
+    padding: 20px 0;
+    &__wrapper {
+        padding: 0 0 0 70px;
+    }
+    &__upheader {
+        padding: 0 0 0 4px;
+        font-family: $sbold;
+        text-transform: uppercase;
+        font-size: 45px;
+        line-height: 45px;
+        color: $fcolor;
+    }
+    &__header {
+        font-family: $bold;
+        text-transform: uppercase;
+        font-size: 85px;
+        line-height: 85px;
+        color: $scolor;
+    }
+    &__subheader {
+        padding: 0 0 0 4px;
+        font-family: $reg;
+        font-size: 18px;
+    }
+    &__img {
+        max-width: 757px;
+    }
+}

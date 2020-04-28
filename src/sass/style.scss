@@ -1,3 +1,4 @@
+@import 'libs/bootstrap.min.scss';
 @import 'libs/bootstrap-reboot.min.scss';
 @import 'libs/bootstrap-grid.min.scss';
 @import 'libs/fonts.scss';
@@ -9,4 +10,6 @@
 } */
 
 
+@import 'blocks/buttons.scss';
 @import 'blocks/header.scss';
+@import 'blocks/promo.scss';

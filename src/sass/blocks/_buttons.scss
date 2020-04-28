@@ -1,0 +1,30 @@
+.button {
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    background-color: #636CB0;
+    border-radius: 20px;
+    border: none;
+    font-family: $reg;
+    font-size: 20px;
+    line-height: 0;
+    color: #fff;
+    transition: all .4s linear;
+    &:hover {
+        background-color: #fff;
+        color: #636CB0;
+        border: solid 1px;
+    }
+    &__promo {
+        margin-top: 20px;
+        width: 210px;
+        height: 50px;   
+        border-radius: 30px;
+        background-color: $tcolor;
+        &:hover {
+            background-color: #fff;
+            color: $tcolor;
+            border: solid 1px;
+        }
+    }
+}

@@ -2,7 +2,7 @@
     padding: 20px 0;
     &__logo {
         img {
-            width: 200px;
+            width: 138px;
         }
     }
     &__nav {
@@ -12,17 +12,12 @@
         padding: 0;
         margin-bottom: 0px;
         &_item {
-            font-family: 'Rubik Regular';
+            font-family: $reg;
+            font-size: 16px;
             padding-right: 50px;
             &:last-child {
                 padding-right: 0;
             }
         }
-    }
-    .button {
-        display: inline-block;
-        width: 150px;
-        height: 30px;
-        background-color: blue;
     }
 }
